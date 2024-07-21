@@ -1,0 +1,27 @@
+.footer {
+    background-color: #fef5e4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer nav ul li {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}

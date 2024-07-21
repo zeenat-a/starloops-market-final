@@ -1,0 +1,99 @@
+body, html {
+    font-family: 'Inter', sans-serif;
+}
+ 
+/* Shop container */
+.shop-container {
+    display: flex;
+    padding: 20px;
+}
+ 
+/* Sidebar styles */
+.shop-sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+ 
+.shop-sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left; /* Align headings to the left */
+}
+ 
+.shop-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.shop-sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: flex-start; /* Aligns items to the left */
+}
+ 
+.shop-sidebar input[type="checkbox"],
+.shop-sidebar input[type="radio"] {
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevents the checkbox/radio button from shrinking */
+}
+ 
+.shop-sidebar label {
+    margin: 0; /* Removes any margin from the label */
+    font-size: 1rem;
+}
+
+.shop-main {
+    width: 80%;
+    padding: 20px;
+}
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shop-sort {
+    display: flex;
+    align-items: center;
+}
+
+.shop-sort label {
+    margin-right: 10px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #333;
+}

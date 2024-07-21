@@ -1,0 +1,47 @@
+.custom-order-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-order-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.custom-order-content h2 {
+    margin-bottom: 20px;
+}
+
+.custom-order-content label {
+    display: block;
+    margin: 10px 0;
+}
+
+.custom-order-content select, .custom-order-content input[type="checkbox"] {
+    margin: 5px 0;
+}
+
+.custom-order-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-order-content button:hover {
+    background-color: #555;
+}

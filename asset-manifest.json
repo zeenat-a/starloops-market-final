@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/starloops-market-final/static/css/main.8384f10b.css",
-    "main.js": "/starloops-market-final/static/js/main.db002d77.js",
-    "static/js/453.9360e2cf.chunk.js": "/starloops-market-final/static/js/453.9360e2cf.chunk.js",
-    "index.html": "/starloops-market-final/index.html",
-    "main.8384f10b.css.map": "/starloops-market-final/static/css/main.8384f10b.css.map",
-    "main.db002d77.js.map": "/starloops-market-final/static/js/main.db002d77.js.map",
-    "453.9360e2cf.chunk.js.map": "/starloops-market-final/static/js/453.9360e2cf.chunk.js.map"
+    "main.css": "/starloops-market-final/index.html/static/css/main.8384f10b.css",
+    "main.js": "/starloops-market-final/index.html/static/js/main.c6ecaede.js",
+    "static/js/453.9360e2cf.chunk.js": "/starloops-market-final/index.html/static/js/453.9360e2cf.chunk.js",
+    "index.html": "/starloops-market-final/index.html/index.html",
+    "main.8384f10b.css.map": "/starloops-market-final/index.html/static/css/main.8384f10b.css.map",
+    "main.c6ecaede.js.map": "/starloops-market-final/index.html/static/js/main.c6ecaede.js.map",
+    "453.9360e2cf.chunk.js.map": "/starloops-market-final/index.html/static/js/453.9360e2cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8384f10b.css",
-    "static/js/main.db002d77.js"
+    "static/js/main.c6ecaede.js"
   ]
 }
